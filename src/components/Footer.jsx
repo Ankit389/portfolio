@@ -1,12 +1,9 @@
-
-
-
 import React from 'react';
 import { FaInstagram, FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-6 mt-5">
+    <footer className="bg-slate-800 text-white py-6 mt-5 px-4">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 text-sm">
         {/* FPC Section */}
         <div>
@@ -54,7 +51,7 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="container mx-auto mt-8 text-center text-xs flex flex-col md:flex-row justify-between items-center">
-        <h1 className='text-base md:text-xl'>@2024. All Rights Reserved.</h1>
+        <h1 className="text-base md:text-xl">@2024. All Rights Reserved.</h1>
 
         {/* Icons aligned to the center on mobile and right on larger screens */}
         <div className="flex justify-center space-x-6 mt-4 md:mt-0">
